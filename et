@@ -1,0 +1,12 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex fc52ae9..54c65f5 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -6,5 +6,6 @@[m
+ </head>[m
+ <body>[m
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint dignissimos repellendus sapiente et, commodi dicta repudiandae nostrum sequi aspernatur ad cumque quo assumenda asperiores quia a soluta tempore facilis impedit!</p>[m
+[32m+[m[32m    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas eaque blanditiis saepe unde rem est possimus, alias, porro quia dolores ad iusto, doloremque explicabo ipsa totam. Error sint soluta, ipsam?</p>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m

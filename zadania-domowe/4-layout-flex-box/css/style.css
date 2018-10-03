@@ -1,0 +1,87 @@
+.kontener {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+.naglowek {
+    flex: 1 100%;
+    background: tomato;
+
+}
+
+.glowny {
+    flex: 1 60%;
+    order: 2;
+    background: blue;
+
+}
+
+.lewy {
+    flex: 1 20%;
+    order: 1;
+    background: green;
+}
+
+.prawy {
+    flex: 1 20%;
+    order: 3;
+    background: pink;
+}
+
+.stopka {
+    flex: 1 100%;
+    order: 4;
+    background: violet;
+}
+
+@media (max-width: 767px) {
+
+
+    .lewy {
+        flex: 100%;
+        order: 2;
+    }
+
+    .glowny {
+        flex: 100%;
+        order: 1;
+    }
+
+    .prawy {
+        flex: 100%;
+        order: 3;
+    }
+
+    .stopka {
+        flex: 100%;
+        order: 4;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .lewy {
+        order: 3;
+        flex: 1 100%;
+        height: 200px;
+    }
+
+    .glowny {
+        order: 1;
+        flex: 1 70%;
+    }
+
+    .prawy {
+        order: 2;
+        flex: 1 30%;
+    }
+
+    .stopka {
+        order: 4;
+        flex: 1 100%;
+    }
+}

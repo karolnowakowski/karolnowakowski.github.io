@@ -1,0 +1,31 @@
+body {
+    color: #747272;
+}
+
+hr {
+    width: 12%;
+    padding-bottom: 15px;
+}
+
+i {
+
+    font-size: 60px;
+    color: rgb(255, 137, 0);
+}
+
+.fa-circle {
+    
+    color: #f0f0f0;
+    opacity: 0.5;
+    
+}
+
+.odstep {
+    
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+sub {
+    font-size: 20px;
+}

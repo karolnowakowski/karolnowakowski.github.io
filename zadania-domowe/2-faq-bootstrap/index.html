@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>bootstrap zadanie domowe 2</title>
+</head>
+
+<body>
+
+    <div class="container text-center">
+        <div id="accordion">
+            <p class="text-center">FAQ</p>
+            <hr>
+            <div class="card">
+                <div class="card-header" id="pierwszy_paragraf">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#pierwszy" aria-expanded="true" aria-controls="pierwszy">
+                            Kim jest Front End Developer?
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="pierwszy" class="collapse" aria-labelledby="pierwszy_paragraf" data-parent="#accordion">
+                    <div class="card-body">
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolorem, quod est illo facere expedita laborum deleniti quo eius, voluptatum itaque quas obcaecati atque dolores optio magni corporis repellendus nesciunt? Velit sunt earum assumenda suscipit perspiciatis quasi adipisci ipsa aut blanditiis officiis molestias ex, distinctio iste nihil placeat iusto eaque ut possimus reprehenderit optio. Voluptas aspernatur, doloremque sint porro numquam?
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="drugi_paragraf">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#drugi" aria-expanded="false" aria-controls="drugi">
+                            Od czego zaczyna się nauka?
+                        </button>
+                    </h5>
+                </div>
+                <div id="drugi" class="collapse" aria-labelledby="drugi_paragraf" data-parent="#accordion">
+                    <div class="card-body">
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae incidunt similique, eligendi ullam eos quia! Inventore possimus aperiam quidem adipisci, quia dolorum, voluptate est perspiciatis exercitationem vitae, maiores quod. Quia sequi voluptates pariatur dolores ipsa laudantium necessitatibus architecto magnam possimus.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="trzeci_paragraf">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#trzeci" aria-expanded="false" aria-controls="trzeci">
+                            Znam juz podstawy. Co dalej?
+                        </button>
+                    </h5>
+                </div>
+                <div id="trzeci" class="collapse" aria-labelledby="trzeci_paragraf" data-parent="#accordion">
+                    <div class="card-body">
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae molestiae ad earum nisi et, quidem repudiandae, quos, exercitationem iusto quia expedita sint dolores iste voluptatum vero autem. Dicta, quae in!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

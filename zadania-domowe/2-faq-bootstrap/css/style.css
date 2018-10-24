@@ -1,0 +1,16 @@
+body {
+    color: #747272;
+}
+
+hr {
+    width: 20%;
+    padding-bottom: 10px;
+}
+
+.btn-link {
+    color: orange; 
+}
+
+ .btn-link:hover {
+    color: #beb9b9;
+}
